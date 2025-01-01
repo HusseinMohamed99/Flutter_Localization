@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localization/generated/l10n.dart';
 import 'package:flutter_localization/home_screen.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:intl/intl.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,4 +31,8 @@ class MyApp extends StatelessWidget {
       home: HomeScreen(),
     );
   }
+}
+
+bool isArabic() {
+  return Intl.getCurrentLocale() == 'ar';
 }

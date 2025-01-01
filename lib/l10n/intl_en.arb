@@ -1,1 +1,37 @@
-{}
+{
+  "@@locale": "en",
+  "app_name": "Football Teams",
+  "@app_name": {
+    "description": "The name of the application",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "al_ahly": "Al Ahly SC",
+  "@al_ahly": {
+    "description": "One of the most successful football clubs in Egypt, based in Cairo.",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "zamalek": "Zamalek SC",
+  "@zamalek": {
+    "description": "A major rival to Al Ahly, another top football club in Cairo.",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "pyramids_fc": "Pyramids FC",
+  "@pyramids_fc": {
+    "description": "A prominent football team based in Cairo, known for recent achievements.",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "smouha": "Smouha SC",
+  "@smouha": {
+    "description": "A football club from Alexandria, Egypt.",
+    "type": "text",
+    "placeholders": {}
+  }
+}

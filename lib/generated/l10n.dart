@@ -49,6 +49,58 @@ class S {
   static S? maybeOf(BuildContext context) {
     return Localizations.of<S>(context, S);
   }
+
+  /// `Football Teams`
+  String get app_name {
+    return Intl.message(
+      'Football Teams',
+      name: 'app_name',
+      desc: 'The name of the application',
+      args: [],
+    );
+  }
+
+  /// `Al Ahly SC`
+  String get al_ahly {
+    return Intl.message(
+      'Al Ahly SC',
+      name: 'al_ahly',
+      desc:
+          'One of the most successful football clubs in Egypt, based in Cairo.',
+      args: [],
+    );
+  }
+
+  /// `Zamalek SC`
+  String get zamalek {
+    return Intl.message(
+      'Zamalek SC',
+      name: 'zamalek',
+      desc: 'A major rival to Al Ahly, another top football club in Cairo.',
+      args: [],
+    );
+  }
+
+  /// `Pyramids FC`
+  String get pyramids_fc {
+    return Intl.message(
+      'Pyramids FC',
+      name: 'pyramids_fc',
+      desc:
+          'A prominent football team based in Cairo, known for recent achievements.',
+      args: [],
+    );
+  }
+
+  /// `Smouha SC`
+  String get smouha {
+    return Intl.message(
+      'Smouha SC',
+      name: 'smouha',
+      desc: 'A football club from Alexandria, Egypt.',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
@@ -57,6 +109,7 @@ class AppLocalizationDelegate extends LocalizationsDelegate<S> {
   List<Locale> get supportedLocales {
     return const <Locale>[
       Locale.fromSubtags(languageCode: 'en'),
+      Locale.fromSubtags(languageCode: 'ar'),
     ];
   }
 

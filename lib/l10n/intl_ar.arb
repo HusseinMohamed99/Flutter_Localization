@@ -1,0 +1,37 @@
+{
+  "@@locale": "ar",
+  "app_name": "فرق كرة القدم",
+  "@app_name": {
+    "description": "اسم التطبيق",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "al_ahly": "النادي الأهلي",
+  "@al_ahly": {
+    "description": "أحد أنجح الأندية الرياضية في مصر، ومقره في القاهرة.",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "zamalek": "نادي الزمالك",
+  "@zamalek": {
+    "description": "أحد أكبر منافسي الأهلي، نادي رياضي آخر في القاهرة.",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "pyramids_fc": "نادي بيراميدز",
+  "@pyramids_fc": {
+    "description": "فريق رياضي بارز في القاهرة، معروف بإنجازاته الأخيرة.",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "smouha": "نادي سموحة",
+  "@smouha": {
+    "description": "نادي رياضي من الإسكندرية، مصر.",
+    "type": "text",
+    "placeholders": {}
+  }
+}

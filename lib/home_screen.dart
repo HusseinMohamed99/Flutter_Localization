@@ -35,6 +35,7 @@ class HomeScreen extends StatelessWidget {
             ),
             body: Column(
               children: [
+                SizedBox(height: 10),
                 Expanded(
                   child: ListView.builder(
                     itemCount: footballTeam.length,
@@ -55,6 +56,7 @@ class HomeScreen extends StatelessWidget {
                   },
                   child: Text('Change Language'),
                 ),
+                SizedBox(height: 40),
               ],
             ),
           );
